@@ -44,7 +44,7 @@ public class RoslynatorAnalyzer extends RoslynatorTool implements ITool {
 
     /**
      * Constructor.
-     * Roslynator analsis needs the MSBuild.exe path
+     * Roslynator analysis needs the MSBuild.exe path
      * (e.g. "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin")
      *
      * @param toolRoot

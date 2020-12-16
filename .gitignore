@@ -207,4 +207,4 @@ $RECYCLE.BIN/
 /.idea
 src/test/java/pique/Scratch.java
 src/test/out
-
+resources/Roslynator*
