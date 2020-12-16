@@ -6,7 +6,7 @@ import pique.model.ModelNode;
 public class DemoMeasureEvaluator extends Evaluator {
 
     /**
-     * Don't utilize thresholds from benchmark repository (due to n = 1 for demo).
+     * Don't utilize thresholds from benchmark repository (due to n = ~1 for demo).
      * Instead, just return the weighted sums of normalized values.
      */
 
