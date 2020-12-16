@@ -6,7 +6,14 @@
 
     <groupId>edu.msu.sel</groupId>
     <artifactId>pique-csharp-demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.9.0</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>msu.msusel</groupId>
+            <artifactId>msusel-pique</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
