@@ -9,7 +9,6 @@ import pique.csharp.analysis.RoslynatorAnalyzer;
 import pique.csharp.analysis.RoslynatorLoc;
 import pique.model.QualityModel;
 import pique.model.QualityModelImport;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -23,7 +22,6 @@ public class NaiveBenchmarkerTests {
     private final Path ROSLYN_ROOT = Paths.get("src/main/resources/Roslynator");
     private final Path MS_BUILD = Paths.get("C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin");
     private final Path BENCHMARK_REPO = Paths.get("C:/Users/David/Repository/benchmark_projects");
-    private final Path ROSLYN_OUTPUT = Paths.get("out/roslynator_output.xml");
     private final Path QM_FILE = Paths.get("src/test/resources/quality_models/qualityModel_full_description.json");
 
     @Test
