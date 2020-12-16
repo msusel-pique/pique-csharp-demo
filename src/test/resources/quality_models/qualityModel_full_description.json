@@ -55,7 +55,7 @@
                 "children": {
                     "Measure 01": {}
                 },
-                "eval_strategy": "pique.utility.DemoProductFactorEvaluator"
+                "eval_strategy": "pique.csharp.evaluation.DemoProductFactorEvaluator"
 			}
 		}
 	},
