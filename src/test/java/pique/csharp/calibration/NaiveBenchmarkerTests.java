@@ -1,4 +1,4 @@
-package pique.csharp.Calibration;
+package pique.csharp.calibration;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -19,9 +19,13 @@ import java.util.stream.Stream;
 
 public class NaiveBenchmarkerTests {
 
-    private final Path ROSLYN_ROOT = Paths.get("src/main/resources/Roslynator");
+    // TODO: CHANGE ME - This path will need to be set to your PC's benchmark directory in order for this test to pass
+    private final Path BENCHMARK_REPO = Paths.get("C:/Users/David Rice/Repository/benchmark_projects");
+
+    // TODO: CHANGE ME - This may need to be set to a different path as well
     private final Path MS_BUILD = Paths.get("C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin");
-    private final Path BENCHMARK_REPO = Paths.get("C:/Users/David/Repository/benchmark_projects");
+
+    private final Path ROSLYN_ROOT = Paths.get("src/main/resources/Roslynator");
     private final Path QM_FILE = Paths.get("src/test/resources/quality_models/qualityModel_full_description.json");
 
     @Test
