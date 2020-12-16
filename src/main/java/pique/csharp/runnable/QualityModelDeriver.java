@@ -19,7 +19,7 @@ import java.util.stream.Stream;
 /**
  * Main method: perform configuration set up, then call `deriveModel()` from Pique.
  */
-public class ModelDeriver {
+public class QualityModelDeriver {
 
     public static void main(String[] args) {
 
